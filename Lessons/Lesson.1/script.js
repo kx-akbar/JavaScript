@@ -1,6 +1,6 @@
 // JS
 
-'use strict'
+ 
 
 // // Number ( Sonlarni o'zida saqlovchi malumot turi )
 // let age = 23;
