@@ -1,0 +1,48 @@
+
+.random-calculator{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    /* border:  1px solid red; */
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.numers{
+    text-align: center;
+    padding: 10px 0 0 0;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border:  3px solid red;
+}
+
+.input button{
+    margin-left: 14px;
+    background-color: red;
+    color: #fff;
+    width: 90px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input input{
+    padding: 8px 10px;
+    color: black;
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid green;
+}
+
+.plus{
+    font-size: 24px;
+}

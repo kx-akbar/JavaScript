@@ -1,0 +1,93 @@
+/* Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.list{
+    text-align: center;
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: auto;
+    padding: 30px 0 0 0;
+}
+
+.list h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.list input{
+    width: 450px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    border: 2px solid #444;
+    margin-bottom: 10px;
+}
+
+.list input::placeholder{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box{
+    /* border: 1px solid red; */
+    width: 250px;
+    margin: 0 auto;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 95px;
+    border-radius: 30px;
+    height: 30px;
+    border: none;
+    background-color: brown;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boxing{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px 0 0 0;
+    padding: 10px 0 10px 0;
+    height: auto;
+    animation-name: box-mover;
+    animation-duration: 5s;
+    display: none;
+}
+
+.box img{
+    width: 200px;
+    height: 140px;
+    border: 1px solid rebeccapurple;
+    margin: 10px;
+}
+
+@keyframes box-mover{
+    from{
+        width: 1010px;
+        background-color: #444;
+        left: 0;
+    }
+    to{
+        background-color: green;
+    }
+}
